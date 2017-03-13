@@ -38645,10 +38645,6 @@
 
 	var _materialUiAvatar2 = _interopRequireDefault(_materialUiAvatar);
 
-	var _stCss = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./st.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _stCss2 = _interopRequireDefault(_stCss);
-
 	function getStateFromFlux() {
 	    return {
 	        taskLists: _storeTaskListsStore2['default'].getTaskLists()
@@ -38731,7 +38727,7 @@
 	                                    _materialUiList.ListItem,
 	                                    {
 	                                        leftIcon: _react2['default'].createElement(_materialUiSvgIconsActionHome2['default'], null),
-	                                        activeClassname: 'active',
+
 	                                        onClick: this.onClick,
 	                                        hoverColor: 'red'
 
