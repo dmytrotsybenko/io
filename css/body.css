@@ -1,0 +1,10 @@
+body{
+	background: #c7b39b url(https://www.heibelschoppen.nl//assets/uploads/Headers/blog-nieuws-post.jpg);
+}
+.login-button{
+	margin: 12px;
+}
+.loginPage{
+	margin: auto;
+	text-align: center;
+}
